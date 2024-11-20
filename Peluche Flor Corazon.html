@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especificaciones del Producto</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <header>
+        <h1>Mamitas - Tec</h1>
+    </header>
+    <!--Crear la X: Inicio-->
+
+    <div class="ful-img" id="fulImgBox">
+        <img src="" id="fulImg" alt="">
+        <span onclick="closeImg()" style="font-family: cursive;">X</span>
+    </div>
+
+<!--Crear la X: Fin-->
+
+    <section id="product-details">
+        <div class="img-gallery2">
+        <img src="peluche flor.png" alt="Peluche Osito" class="product-image" onclick="openFulImg(this.src)">
+        </div>
+        <div class="product-info">
+            <h2>Peluche Flor Corazón</h2>
+            <p><strong>Descripción:</strong>"El peluche de flor con forma de corazón es un símbolo de amor y ternura. Hecho a mano con materiales suaves, es perfecto como un regalo especial para expresar cariño o como un detalle decorativo que resalta calidez en cualquier espacio."</p>
+            <p><strong>Material:</strong> Algodón, relleno de fibra sintética.</p>
+            <p><strong>Dimensiones:</strong> 30 cm de alto x 20 cm de ancho.</p>
+            <p><strong>Precio:</strong> $20.00</p>
+            <button onclick="addToCart('Peluche Osito', 20)">Añadir al carrito</button>
+        </div>
+    </section>
+
+    <!-- Sección del carrito -->
+   <section id="cart" class="centered-content">
+        <h2>Carrito de Compras</h2>
+        <div id="cart-items">
+            <p>El carrito está vacío.</p>
+        </div>
+        <button onclick="clearCart()">Vaciar carrito</button>
+    </section>
+
+    <a href="index.html">Volver a la tienda</a>
+
+    <script src="script2.js"></script>
+</body>
