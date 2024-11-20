@@ -1,19 +1,22 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: cursive, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    background-color: #ffe4f0 ;
 }
 
 header {
-    background-color: #ffcccb;
-    padding: 15px 10px;
+    background-color: #f37daf;
+    padding: 20px 10px;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
+}
+h2{
+    background-color: #f37daf;
 }
 
 nav ul {
@@ -42,7 +45,7 @@ section {
 }
 
 .product {
-    background-color: white;
+    background-color: #f37daf;
     border: 1px solid #ddd;
     padding: 15px;
     width: 250px;
@@ -56,8 +59,19 @@ section {
     border-radius: 8px;
 }
 
+.iris{
+    color: black;
+    text-align: center;
+
+}
+.leslie{
+  color: white; 
+}
+.leslie:hover{
+  color: #ff026d; 
+}
 button {
-    background-color: #ffcccb;
+    background-color: #ff026d;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
